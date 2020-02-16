@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".McUGPA">
+    android:background="#00FCFCFC"
+    tools:context=".MainActivity">
+
     <Button
         android:id="@+id/btncal"
         android:layout_width="178dp"
@@ -410,6 +412,1263 @@
                     android:inputType="number" />
 
             </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc11"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course11"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter11"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc12"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course12"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter12"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc13"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course13"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter13"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc14"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course14"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter14"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc15"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course15"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter15"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc16"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course16"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter16"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc17"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course17"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter17"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc18"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course18"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter18"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc19"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course19"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter19"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc20"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course20"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter20"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc21"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course21"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter21"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc22"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course22"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter22"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc23"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course23"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter23"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc24"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course24"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter24"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc25"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course25"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter25"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc26"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course26"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter26"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc27"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course27"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter27"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc28"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course28"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter28"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc29"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course29"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter29"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc30"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course30"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter30"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd30"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc31"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course31"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter31"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc32"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course32"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter32"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc33"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course33"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter33"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc34"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course34"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter34"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd34"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc35"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course35"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter35"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd35"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc36"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course36"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter36"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc37"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course37"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter37"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd37"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc38"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course38"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter38"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc39"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course39"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter39"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd39"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc40"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course40"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter40"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc41"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course41"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter41"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc42"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course42"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter42"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc43"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course43"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter43"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc44"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course44"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter44"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd44"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc45"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course45"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter45"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd45"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc46"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course46"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter46"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd46"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc47"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course47"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter47"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc48"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course48"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter48"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc49"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course49"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter49"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd49"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewc50"
+                    android:layout_width="215dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text=" Course50"
+                    android:textColor="@android:color/background_dark"
+                    android:textSize="19sp" />
+
+                <Spinner
+                    android:id="@+id/spnletter50"
+                    android:layout_width="220dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="textPersonName" />
+
+                <EditText
+                    android:id="@+id/txtcrd50"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:inputType="number" />
+
+            </LinearLayout>
         </LinearLayout>
     </ScrollView>
 
@@ -488,7 +1747,6 @@
         android:orientation="vertical"
         app:layout_constraintGuide_begin="20dp"
         app:layout_constraintGuide_percent="0.5" />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -17,7 +17,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".McUGPA"></activity>
-        <activity android:name=".MainActivity" />
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".splashScreen"
             android:screenOrientation="portrait"
@@ -29,6 +30,7 @@
         </activity>
         <activity
             android:name=".Home"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme"
     />
     </application>

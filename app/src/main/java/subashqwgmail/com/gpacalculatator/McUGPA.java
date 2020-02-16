@@ -4,17 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.Editable;
-import android.text.TextUtils;
-import android.text.TextWatcher;
-import android.util.*;
-import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ListView;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -22,12 +16,8 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.List;
 
-
-
-
-
-public class MainActivity extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
-    public String[] all = {"A+", "A", "B+", "B", "C+", "C", "D+", "D", "E", "F","---"};
+public class McUGPA extends AppCompatActivity implements AdapterView.OnItemSelectedListener {
+    public String[] all = {"A+", "A","A-" ,"B+", "B", "B-","C+", "C", "C-","D+", "D","D-", "F","---"};
     private List<String> letterGrade = new ArrayList<>();
     private List<Integer> courseWeight = new ArrayList<>();
     private List<Integer> numberGrade = new ArrayList<>();
@@ -57,13 +47,13 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         final int btnOn = 0; //True
-         letter = (Spinner) findViewById(R.id.spnletter);
-         letter2 =  (Spinner)findViewById(R.id.spnletter2);
-         letter3 = (Spinner)findViewById(R.id.spnletter3);
-         letter4 =  (Spinner)findViewById(R.id.spnletter4);
-         letter5 =  (Spinner)findViewById(R.id.spnletter5);
-         letter6 =  (Spinner)findViewById(R.id.spnletter6);
-         letter7 = (Spinner) findViewById(R.id.spnletter7);
+        letter = (Spinner) findViewById(R.id.spnletter);
+        letter2 =  (Spinner)findViewById(R.id.spnletter2);
+        letter3 = (Spinner)findViewById(R.id.spnletter3);
+        letter4 =  (Spinner)findViewById(R.id.spnletter4);
+        letter5 =  (Spinner)findViewById(R.id.spnletter5);
+        letter6 =  (Spinner)findViewById(R.id.spnletter6);
+        letter7 = (Spinner) findViewById(R.id.spnletter7);
         letter8 = (Spinner) findViewById(R.id.spnletter8);
         letter9 = (Spinner) findViewById(R.id.spnletter9);
         letter10 = (Spinner) findViewById(R.id.spnletter10);
@@ -77,7 +67,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         credit8 = (EditText) findViewById(R.id.txtcrd8);
         credit9 = (EditText) findViewById(R.id.txtcrd9);
         credit10 = (EditText) findViewById(R.id.txtcrd10);
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,R.array.letters, android.R.layout.simple_spinner_item);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,R.array.lettersMcU, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         letter.setAdapter(adapter);
         letter2.setAdapter(adapter);
@@ -100,7 +90,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         letter9.setOnItemSelectedListener(this);
         letter10.setOnItemSelectedListener(this);
         result = (TextView) findViewById(R.id.txtresult);
-        final  Button cal = (Button) findViewById(R.id.btncal);
+        final Button cal = (Button) findViewById(R.id.btncal);
         cal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -127,8 +117,8 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 courseWeight.add(Integer.parseInt(credit9.getText().toString()));
                 courseWeight.add(Integer.parseInt(credit10.getText().toString()));
                 numberGrade();
-                double valresult = calculated ();
-                result.setText(String.format("%.2f", valresult));
+                double valResult = calculated ();
+                result.setText(String.format("%.2f", valResult));
                 letterGrade.clear();
                 courseWeight.clear();
                 numberGrade.clear();
@@ -141,16 +131,14 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 openHome();
-
             }
         });
 
     }
     /*
-    *openHome() when home button is clicked returns the user back to homepage where they can select
-    *  a new GPA school
+     *openHome() when home button is clicked returns the user back to homepage where they can select
+     *  a new GPA school
      */
     public void openHome(){
         Intent intent =new Intent(this,Home.class);
@@ -163,7 +151,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
         String display = parent.getItemAtPosition(position).toString();
-    Toast.makeText(parent.getContext(),display,Toast.LENGTH_SHORT).show();
+        Toast.makeText(parent.getContext(),display,Toast.LENGTH_SHORT).show();
     }
 
     @Override
@@ -177,37 +165,46 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
     private void numberGrade() {
         for (int i = 0; i < this.letterGrade.size(); i++) {
             if (this.letterGrade.get(i).toUpperCase().equals(all[0])) {
-                this.numberGrade.add(9);
+                this.numberGrade.add(12);
             }
             if (this.letterGrade.get(i).toUpperCase().equals(all[1])) {
-                this.numberGrade.add(8);
+                this.numberGrade.add(11);
             }
             if (this.letterGrade.get(i).toUpperCase().equals(all[2])) {
-                this.numberGrade.add(7);
+                this.numberGrade.add(10);
             }
             if (this.letterGrade.get(i).toUpperCase().equals(all[3])) {
-                this.numberGrade.add(6);
+                this.numberGrade.add(9);
             }
             if (this.letterGrade.get(i).toUpperCase().equals(all[4])) {
-                this.numberGrade.add(5);
+                this.numberGrade.add(8);
             }
             if (this.letterGrade.get(i).toUpperCase().equals(all[5])) {
-                this.numberGrade.add(4);
+                this.numberGrade.add(7);
             }
             if (this.letterGrade.get(i).toUpperCase().equals(all[6])) {
-                this.numberGrade.add(3);
+                this.numberGrade.add(6);
             }
             if (this.letterGrade.get(i).toUpperCase().equals(all[7])) {
-                this.numberGrade.add(2);
+                this.numberGrade.add(5);
             }
             if (this.letterGrade.get(i).toUpperCase().equals(all[8])) {
-                this.numberGrade.add(1);
+                this.numberGrade.add(4);
             }
             if (this.letterGrade.get(i).toUpperCase().equals(all[9])) {
+                this.numberGrade.add(3);
+            }
+            if(this.letterGrade.get(i).toUpperCase().equals(all[10])){
+                this.numberGrade.add(2);
+            }
+            if(this.letterGrade.get(i).toUpperCase().equals(all[11])){
+                this.numberGrade.add(1);
+            }
+            if(this.letterGrade.get(i).toUpperCase().equals(all[12])){
                 this.numberGrade.add(0);
             }
-            if(this.letterGrade.get(i).equals(all[10])){
-                    this.numberGrade.add(0);
+            if(this.letterGrade.get(i).toUpperCase().equals(all[13])){
+                this.numberGrade.add(0);
             }
         }
     }
@@ -316,7 +313,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
 //
 
 
-       // result.setText("");
+        // result.setText("");
         credit.setText("");
         credit2.setText("");
         credit3.setText("");
@@ -327,8 +324,5 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
         credit8.setText("");
         credit9.setText("");
         credit10.setText("");
-
     }
-
-
 }

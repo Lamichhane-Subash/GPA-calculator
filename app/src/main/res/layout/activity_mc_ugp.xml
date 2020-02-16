@@ -4,9 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#00FCFCFC"
-    tools:context=".MainActivity">
-
+    tools:context=".McUGPA">
     <Button
         android:id="@+id/btncal"
         android:layout_width="178dp"
@@ -490,6 +488,7 @@
         android:orientation="vertical"
         app:layout_constraintGuide_begin="20dp"
         app:layout_constraintGuide_percent="0.5" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
